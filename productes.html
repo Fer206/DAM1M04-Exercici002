@@ -4,3 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="global.css">
+    <title>Productos | El mundo de la música</title>
+     <style>
+    .filters {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .filters span {
+      margin: 0 10px;
+      cursor: pointer;
+      color: var(--color-primario, #004aad);
+      font-weight: 500;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product-card {
+      flex: 1 1 260px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="topnav">
+    <div class="brand">El mundo de la música</div>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productes.html">Productos</a></li>
+      <li><a href="contacte.htmls">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="filters">
+      <span>Todos</span>
+      <span>Guitarras</span>
+      <span>Pianos</span>
+      <span>Accesorios</span>
+    </div>
+
+    <div class="grid">
+      <div class="product-card">
+        <img src="Imagenes\martin-rajdl-Olg60_RTPc8-unsplash.jpg" alt="Guitarra eléctrica">
+        <h4>Guitarra Eléctrica</h4>
+        <p>299 €</p>
+      </div>
+
+      <div class="product-card">
+        <img src="Imagenes\yuyi-chang-VnEIGgL6c-k-unsplash.jpg" alt="Piano digital">
+        <h4>Piano Digital</h4>
+        <p>699 €</p>
+      </div>
+
+      <div class="product-card">
+        <img src="Imagenes\polygon-group-fd47bVxHzVc-unsplash.jpg" alt="Bajo clásico">
+        <h4>Bajo Clásico</h4>
+        <p>399 €</p>
+      </div>
+
+      <div class="product-card">
+        <img src="Imagenes\olena-bohovyk-BRkFjOTBx_w-unsplash.jpg" alt="Auriculares profesionales">
+        <h4>Auriculares Pro</h4>
+        <p>89 €</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    El mundo de la música · Contacto: info@musica.com
+  </footer>
+</body>
+</html>

@@ -52,7 +52,7 @@ footer {
      text-align: center;
   padding: 20px;
   background: var(--color-secundari);
-  color: #555;
+  color: #1f1f1f;
   margin-top: 40px;
   font-size: 0.9rem;
 }
@@ -62,4 +62,13 @@ footer {
   max-width: 1100px;
   margin: 90px auto 0 auto; /* 90px per compensar el menú fix */
   padding: 0 20px;
+}
+
+/* 🔹 Cambiamos el tamaño y la posición de las imágenes */
+img {
+      width: 150px;         /* tamaño más pequeño */
+      height: auto;         /* mantiene la proporción */
+      display: block;       /* permite centrarla */
+      margin: 10px auto 0;  /* centrada debajo del texto */
+      border-radius: 10px;
 }
