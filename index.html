@@ -5,7 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="global.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Principal</title>
+    <title>Mundo de la musica</title>
+    <style>
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+            border-radius: 12px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: var(--color-primari);
+        }
+        .hero p {
+         font-size: 1.2rem;
+        }
+        .hero button {
+      background: var(--color-primari);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .collections {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 50px;
+    }
+    .card {
+      flex: 1 1 300px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+    }
+    .benefits {
+      display: flex;
+      justify-content: space-around;
+      background: var(--color-secundari);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+      font-weight: 500;
+    }
+    </style>
 </head>
 <body>
     <nav class="topnav">
@@ -16,4 +63,40 @@
             <li><a href="contacte.html">Contacte</a></li>
         </ul>
     </nav>
+    <main class="container">
+        <section class="hero">
+            <h1>Descubre el ritmo que te mueve</h1>
+            <p>Instrumentos, accessorios i formacion para todos</p>
+            <button>Explora los productos</button>
+        </section>
+
+        <section class="collections">
+            <div class="card">
+                <h3>Guitarras</h3>
+                <p>El sonido clasico y moderno para expresarse con estilo</p>
+                <span>#Acustica</span><span>#Electrica</span>
+            </div>
+            <div class="card">
+                <h3>Pianos</h3>
+                <p>Desde el piano compacto hasta el piano de cola</p>
+                <span>#Digital</span><span>#Clasico</span>
+            </div>
+            <div class="card">
+                <h3>Accessorios</h3>
+                <p>Todo lo necesario para cuidar y mejorar</p>
+                <span>#Acordes</span><span>#Fundas</span>
+            </div> 
+        </section>
+
+        <section class="benefits">
+            <div>Envio 48h</div>
+            <div>Cambio gratuitos</div>
+            <div>Pago seguro</div>
+        </section>
+    </main>
+    <footer>
+        El mundo de la musica · Contacto: info@musica.com
+  </footer>
+    </footer>
 </body>
+</html>

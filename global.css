@@ -47,7 +47,7 @@ html, body {
     padding: 0;
     margin: 0;
 }
-/*Peu*/
+/*Pie*/
 footer {
      text-align: center;
   padding: 20px;
@@ -57,7 +57,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* --- Contenidor general --- */
+/* Contenedor general */
 .container {
   max-width: 1100px;
   margin: 90px auto 0 auto; /* 90px per compensar el menú fix */
